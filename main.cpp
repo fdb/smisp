@@ -53,7 +53,7 @@ typedef SObjectList::iterator SObjectListIterator;
 class SList : public SObject {
 public:
     SList();
-    virtual SObject *SList::eval();
+    virtual SObject *eval();
     void add(SObject *obj);
     virtual std::string toString();
     SObjectList mList;
